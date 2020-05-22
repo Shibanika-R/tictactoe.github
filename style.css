@@ -1,0 +1,39 @@
+body{
+	margin: 0px;
+	background-color: #2F4F4F;
+	color: #E6E6FA;
+	text-align: center;
+	font-size: 2em;
+}
+.heading{
+	background-color: #7FFF00;
+	color: #2F4F4F;
+	text-align: center;
+	font-size: 2em;
+	
+}
+
+table {
+  
+  	margin: 1rem auto;
+  	border-collapse: collapse;
+}
+td {
+  	padding: 1rem 1.2rem;
+  	height: 100px;
+  	width: 100px;
+    color: #fff;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+.ver{
+	border-left: 1px solid;
+	border-right: 1px solid;
+}
+
+.hor{
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}

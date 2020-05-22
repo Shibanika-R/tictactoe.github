@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="heading">Tic Tac Toe</div>
+	<div class="score">
+		<p><span id="user1">X</span> VS <span id="user2">O</span></p>
+	</div>
+<table >
+	<tr >
+		<td  onclick="changeText(this,'s1')"></td>
+		<td class="ver " onclick="changeText(this,'s2')"></td>
+		<td  onclick="changeText(this,'s3')"></td>
+	</tr>
+
+	<tr >
+		<td class="hor" onclick="changeText(this,'s4')"></td>
+		<td class="ver hor" onclick="changeText(this,'s5')"></td>
+		<td class="hor" onclick="changeText(this,'s6')"></td>
+	</tr>
+
+	<tr >
+		<td  onclick="changeText(this,'s7')"></td>
+		<td class="ver" onclick="changeText(this,'s8')"></td>
+		<td  onclick="changeText(this,'s9')"></td>
+	</tr>
+</table>
+</body>
+<script src="script.js"></script>
+
+</html>
